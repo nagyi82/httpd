@@ -1,2 +1,2 @@
-FROM httpd:2.4
+FROM httpd:latest
 copy ./var/www/html/ /usr/local/apache2/htdocs/
